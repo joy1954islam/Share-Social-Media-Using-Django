@@ -25,7 +25,7 @@ SECRET_KEY = 'e+mqxg)ybplc2+1io^6f8^nb2a-qmth4%w6n$a(j^uf#)p7pt@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://www.ishtishon.com/', '*']
 
 
 # Application definition
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'core.apps.CoreConfig',
-    'django_social_share',
 ]
 
 MIDDLEWARE = [
